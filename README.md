@@ -44,9 +44,7 @@ $aws --version
 ```
 serverless create --template aws-nodejs --path <<servicename>>
 
-serverless deploy
-serverless deploy function  --function Emailer
-serverless deploy --package package-path
+This should create "serverless.yml" and "handler.js" file in your current directory
 ```
 
 ### 3. Deploy sample service (serverless framework service) 
